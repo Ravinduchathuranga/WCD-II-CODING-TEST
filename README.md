@@ -1,6 +1,6 @@
 # Expression Language (EL) Practice Tasks for JSP
 
-Question 2: Accessing Request Parameters
-Scenario: You have a form on your webpage where users enter their first name and last name. After submission, the data is sent to a JSP page for display.
+Question 3: JavaBean Instantiation and Property Setting
+Scenario: You have a JavaBean named Product with properties id, name, and price. You want to create an instance of this bean and set its properties within a JSP page.
 
-Question: Write the JSP code to display the user's first and last names using EL.
+Question: Write the JSP code using standard actions to instantiate a Product bean, set its id to 101, name to Laptop, and price to 750.0.
