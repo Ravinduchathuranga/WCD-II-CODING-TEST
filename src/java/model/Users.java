@@ -2,56 +2,35 @@ package model;
 
 public class Users {
 
-    private String name;
-    private int age;
-    private String city;
-
-//    public Users(String name, int age, String city) {
-//        this.name = name;
-//        this.age = age;
-//        this.city = city;
-//    }
+    private String first_name;
+    private String last_name;
 
     /**
-     * @return the name
+     * @return the first_name
      */
-    public String getName() {
-        return name;
+    public String getFirst_name() {
+        return first_name;
     }
 
     /**
-     * @param name the name to set
+     * @param first_name the first_name to set
      */
-    public void setName(String name) {
-        this.name = name;
+    public void setFirst_name(String first_name) {
+        this.first_name = first_name;
     }
 
     /**
-     * @return the age
+     * @return the last_name
      */
-    public int getAge() {
-        return age;
+    public String getLast_name() {
+        return last_name;
     }
 
     /**
-     * @param age the age to set
+     * @param last_name the last_name to set
      */
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    /**
-     * @return the city
-     */
-    public String getCity() {
-        return city;
-    }
-
-    /**
-     * @param city the city to set
-     */
-    public void setCity(String city) {
-        this.city = city;
+    public void setLast_name(String last_name) {
+        this.last_name = last_name;
     }
 
 }

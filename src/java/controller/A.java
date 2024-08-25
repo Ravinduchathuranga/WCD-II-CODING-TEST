@@ -16,18 +16,14 @@ public class A extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Users user = new Users();
-        user.setName("John");
-        user.setAge(25);
-        user.setCity("New York");
 
-        //set to request scope
-        req.setAttribute("name", user.getName());
-        //set to session scope
-        req.getSession().setAttribute("age", user.getAge());
-        //set to application scope
-        req.getServletContext().setAttribute("city", user.getCity());
-        
+        Users user = new Users();
+
+        user.setFirst_name("john");
+        user.setLast_name("kenady");
+
+        req.setAttribute("first_name", user.getFirst_name());
+        req.setAttribute("last_name", user.getLast_name());
         req.getRequestDispatcher("userDetails.jsp").forward(req, resp);
 
     }
