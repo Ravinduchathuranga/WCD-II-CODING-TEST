@@ -1,4 +1,4 @@
-# Expression Language (EL) Practice Tasks for JSP
+# Standard actions Practice Tasks for JSP
 
 Question 3: JavaBean Instantiation and Property Setting
 Scenario: You have a JavaBean named Product with properties id, name, and price. You want to create an instance of this bean and set its properties within a JSP page.
